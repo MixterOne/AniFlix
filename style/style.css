@@ -1,0 +1,118 @@
+:root{
+    --purple:rgb(105, 26, 105); 
+    --black: #141414;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: var(--black);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--purple);
+    font-family: 'Grechen Fuemen', cursive;
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+header nav a{
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*EXIBIÇÃO PRINCIPAL*/
+
+.poster{
+    font-size: 16px;
+    background: linear-gradient(rgba(124, 124, 124, 0.5),rgba(0, 0, 0,.50)100%), url(../img/backg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.poster .description{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.poster .titulo{
+    margin-top: 10%;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0,.50);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s ease all;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.btn i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+
+.poster .container{
+    width: 60%;
+    word-break: break-all;
+}
+
+/*CARROSEL*/
+
+.box-anime{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-animes{
+    margin-top: 5px;
+}
+
+
+
+
